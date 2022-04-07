@@ -54,6 +54,13 @@ class MainActivity : AppCompatActivity() {
 
         //actualizar usuarios
 
-        //elimianr usuarios
+        //eliminar usuarios
+        binding.btnDelete.setOnClickListener {
+            val nombre=binding.etNombre.text.toString()
+            database.getReference("Users").child(nombre).removeValue().addOnSuccessListener {
+                binding.etNombre.text.clear()
+                Toast.makeText(this,"Usario eliminado",Toast.LENGTH_LONG).show()
+            }
+        }
     }
 }
