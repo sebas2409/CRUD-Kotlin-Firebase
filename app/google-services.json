@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1067482520182",
+    "project_id": "prueba-firebase-5c401",
+    "storage_bucket": "prueba-firebase-5c401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1067482520182:android:eca1e5190a63acf00c9d57",
+        "android_client_info": {
+          "package_name": "com.watermelon.prueba_firestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1067482520182-5ujjjnf97kroj1jmc7bscgkd1l91m6v7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpCtS2RxWnMGVT0CUZ_rBztCNQ-4Wh2qI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1067482520182-5ujjjnf97kroj1jmc7bscgkd1l91m6v7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">prueba-firestore</string>
+    <string name="nombre">nombre</string>
+    <string name="edad">Edad</string>
+    <string name="apellido">Apellido</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="a_adir">Añadir</string>
+</resources>
