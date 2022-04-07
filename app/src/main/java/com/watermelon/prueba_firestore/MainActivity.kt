@@ -17,14 +17,14 @@ class MainActivity : AppCompatActivity() {
 
         //añadir usuarios
         binding.btnAdd.setOnClickListener {
-            val nombre=binding.etNombre.text.toString()
-            val apellido=binding.etApellido.text.toString()
-            val edad=binding.etEdad.text.toString().toInt()
+            val firstName=binding.etNombre.text.toString()
+            val lastName=binding.etApellido.text.toString()
+            val age=binding.etEdad.text.toString().toInt()
 
 
-            val user=User(nombre,apellido,edad)
+            val user=User(firstName,lastName,age)
 
-            database.getReference("Users").child(nombre).setValue(user).addOnSuccessListener {
+            database.getReference("Users").child(firstName).setValue(user).addOnSuccessListener {
                 binding.etNombre.text.clear()
                 binding.etApellido.text.clear()
                 binding.etEdad.text.clear()
