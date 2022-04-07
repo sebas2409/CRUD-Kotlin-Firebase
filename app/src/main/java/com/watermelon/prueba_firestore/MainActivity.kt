@@ -37,9 +37,9 @@ class MainActivity : AppCompatActivity() {
 
             database.getReference("Users").child(nombre).get().addOnSuccessListener {
                 if (it.exists()) {
-                    val name = it.child("nombre").value
-                    val apellido = it.child("apellido").value
-                    val edad = it.child("edad").value
+                    val name = it.child("firstName").value
+                    val apellido = it.child("lastName").value
+                    val edad = it.child("age").value
 
                     binding.etNombre.text.clear()
 
